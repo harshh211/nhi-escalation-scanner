@@ -2,6 +2,8 @@
 
 🎥 Watch the demo - https://www.linkedin.com/posts/harsh-kam_cybersecurity-aws-cloudsecurity-activity-7483080878160699392-DzPx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfxOfoBAXe5-pdwrnFLso4_ahpGY0D6KIE
 
+![Escalation graph](demo-graph.png)
+
 A privilege escalation path-finder for AWS **non-human identities** (IAM roles, service accounts) — built to catch hidden routes to admin access that traditional checklist-style scanners miss.
 
 ## The Problem

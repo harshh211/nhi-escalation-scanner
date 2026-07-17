@@ -9,7 +9,7 @@ prints a clean report.
 Usage:
     python3 scan.py
 """
-
+from scanner.visualize import draw_graph
 from moto import mock_aws
 from tests.fake_aws import build_fake_account
 import boto3
@@ -47,6 +47,8 @@ def _run_report(all_roles_data):
     total = len(all_roles_data)
     print(f"\nSCAN COMPLETE: {vulnerable_count} of {total} roles "
           f"have a path to admin (direct or chained).\n")
+
+    draw_graph(graph, paths_to_admin)
 
 def run_scan():
     print("=" * 60)
