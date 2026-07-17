@@ -3,7 +3,7 @@
 🎥 Watch the demo - https://www.linkedin.com/posts/harsh-kam_cybersecurity-aws-cloudsecurity-activity-7483080878160699392-DzPx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfxOfoBAXe5-pdwrnFLso4_ahpGY0D6KIE
 
 ![Escalation graph](demo-graph.png)
-*Red nodes are roles with a path to admin access (direct or chained). Green nodes are safe. The gold node represents admin access — every arrow shows a real, detected escalation route. Note `reporting-role`, which has no direct path but reaches admin through `ci-deploy-role` — a two-hop chain invisible to single-permission scanners.*
+*Red nodes are roles with a path to admin access (direct or chained). Green nodes are safe. The gold node represents admin access - every arrow shows a real, detected escalation route. Note `reporting-role`, which has no direct path but reaches admin through `ci-deploy-role` — a two-hop chain invisible to single-permission scanners.*
 
 A privilege escalation path-finder for AWS **non-human identities** (IAM roles, service accounts) — built to catch hidden routes to admin access that traditional checklist-style scanners miss.
 
